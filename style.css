@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("bgimage1.jpg"); */
+    /*background-size: contain; */
+    background: gray;
+}
+
+.ludo-container{
+    height: 473px;
+    width: 473px;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+
+.above{
+    display: flex;
+    justify-content: space-between;
+}
+
+.player1{
+    height: 190px;
+    width: 190px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+
+.player1Inside{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.chi1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.chi1bdr{
+    margin-bottom: 20px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
+.dinner{
+    height: 90px;
+    width: 130px;
+    border: 2px solid black;
+    border-top: 45px solid green;
+    border-left: 45px solid red;
+    border-right:  45px solid yellow;
+    border-bottom: 45px solid rgb(13, 131, 241);
+}
+
+.below{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    border-top: none;
+}
+
+.left{
+    border-left: none;
+}
+
+.right{
+    border-right: none;
+}
+
+.bottom{
+    border-bottom: none;
+}
+
+.box1{
+    height: 31.6px;
+    width: 30px;
+    border: 1px solid black;
+}
+
+.bdrleft{
+    border-left: none;
+}
+
+.bdrright{
+    border-right: none;
+}
+
+.bdrtop{
+    border-top: none;
+}
+
+.bdrbottom{
+    border-bottom: none;
+}
+
+.m-line1{
+    display: block;
+}
+
+.boxm{
+    height: 30px;
+    width: 31.8px;
+    border: 1px solid black;
+}
+
+.brtop{
+    border-top: none;
+}
+
+.brbottom{
+    border-bottom: none;
+}
+
+.rigbdr{
+    border-right: none;
+}
+
+.leftbdr{
+    border-left: none;
+}
+
+.bgcolor1{
+    background-color: red;
+}
+
+.bgcolor1-1{
+    background-color: white;
+}
+
+.bgcolor2{
+    background-color: green;
+}
+
+.bgcolor2-1{
+    background-color: white;
+}
+
+.bgcolor3{
+    background-color: rgb(13, 131, 241);
+}
+
+.bgcolor3-1{
+    background-color: white;
+}
+
+.bgcolor4{
+    background-color: yellow;
+}
+
+.bgcolor4-1{
+    background-color: white;
+}
+
+.mRclr{
+    background-color: green;
+}
+
+.mGclr{
+    background-color: red;
+}
+
+.mYclr{
+    background-color: yellow;
+}
+
+.mBclr{
+    background-color: rgb(13, 131, 241);
+}
+
+.box1{
+    align-content: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+.boxm{
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Gcolor{
+    background-color: green;
+}
+
+.Rcolor{
+    background-color: red;
+}
+
+.Ycolor{
+    background-color: yellow;
+}
+
+.Bcolor{
+    background-color: rgb(13, 131, 241);
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: rgb(13, 131, 241);
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.dice{
+    position: absolute;
+    top: 39px;
+    left: 47.9%;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
