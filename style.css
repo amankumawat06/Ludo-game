@@ -15,8 +15,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url("bgimage1.jpg"); */
-    /*background-size: contain; */
     background: gray;
 }
 
@@ -40,7 +38,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rebeccapurple; */
 }
 
 .player1Inside{
@@ -251,4 +248,3 @@ body{
     align-items: center;
     border-radius: 5px;
 }
-
